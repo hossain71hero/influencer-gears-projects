@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .container{
     width: 80%;
     margin: 0 auto;
 }
+.logu h3 span{
+    color:#e02c6d ;
+}
 .logu h3{
     font-size: 2.5rem;
+    font-family: "Poppins", serif;
 }
 .header{
     display: flex;
@@ -32,7 +37,7 @@
 }
 
 /* banner_section */
-.img{
+img{
     width: 100%;
 }
 .banner_section{
@@ -55,9 +60,11 @@
 .banner_content h1{
     font-size: 3rem;
     width: 580px;
+    font-family: "Poppins", serif;
 }
 .banner_content p{
     width: 500px;
+    font-family: "Poppins", serif;
 
 }
 .banner_img{
@@ -71,4 +78,19 @@
     font-size: 18px;
     border: none;
     border-radius: 25px;
+}
+
+/* sponcer img section */
+.sponcer_section{
+    margin-top: 70px;
+}
+.sponcer_img{
+    display: flex;
+    
+    justify-content: space-between;
+    border-top: 1px solid rgb(235, 232, 232);
+    border-bottom: 1px solid rgb(235, 232, 232);
+}
+.sponcer_img img{
+    margin:0px 40px ;
 }
