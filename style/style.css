@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 .logu h3 span{
@@ -70,7 +70,7 @@ img{
 .banner_img{
     justify-content: center;
 }
-.banner_content button{
+.common{
     background-color:#e02c6d ;
     padding: 12px 21px;
     color: aliceblue;
@@ -93,4 +93,79 @@ img{
 }
 .sponcer_img img{
     margin:0px 40px ;
+}
+
+/* card section */
+.card_section{
+    margin-top: 80px;
+   
+}
+.card{
+    /* box-shadow: 0px 6px 50px 0px #9b1818; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px 150px;
+    border-radius: 10px; 
+}
+.card_content span{
+    color: orange;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 2px;
+    
+}
+
+.card_content h3,p{
+  line-height: 5px;
+}
+.card_section h1 {
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+.card_content{
+    padding: 15px;
+    
+    box-shadow: 0px 6px 50px 0px #f2f0f0;
+   
+   
+}
+/* future_section */
+.future_section{
+    display: flex;
+    margin-top: 80px; 
+    align-items: center;
+}
+.future_content{
+    width: 600px;
+    margin-left: 50px;
+   
+}
+.future_content p{
+    line-height: 15px;
+   
+}
+.futur_img {
+    width: 50%;
+}
+
+/* foter */
+.foter{
+    text-align: center;
+    margin-top: 80px;
+    background-color:#0a0826 ;
+    color: aliceblue;
+
+    
+}
+.imgfoter{
+    display: flex;
+    justify-content: center;
+    
+}
+.fotercontent{
+    padding:35px 20px ;
+}
+.imgfoter img{
+    width: 30px;
+    padding: 0px 10px;
 }
