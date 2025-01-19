@@ -1,0 +1,74 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logu h3{
+    font-size: 2.5rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+  
+
+}
+.menu ul li{
+    list-style: none;
+    padding: 0px 15px;
+    
+}
+.menu ul li a{
+   text-decoration: none;
+   font-size: 1.4rem;
+   color: black;
+   font-weight: 500;
+}
+
+/* banner_section */
+.img{
+    width: 100%;
+}
+.banner_section{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+    background-image: url(../images/Circle\ design.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  
+ 
+}
+.banner_content{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.banner_content h1{
+    font-size: 3rem;
+    width: 580px;
+}
+.banner_content p{
+    width: 500px;
+
+}
+.banner_img{
+    justify-content: center;
+}
+.banner_content button{
+    background-color:#e02c6d ;
+    padding: 12px 21px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+}
